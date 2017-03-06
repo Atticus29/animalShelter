@@ -6,8 +6,15 @@ function Animal(animalName, adoptionStatus){
 }
 
 // Front End
-<<<<<<< HEAD
-$(document).ready(function(){
+
+
+
+
+
+$(function(){
+  var rhino = new Animal("rhino", false);
+  var gorilla = new Animal("gorilla", false);
+  var bat = new Animal("bat", false);
 
   $("#harambe-img").click(function(event){
     $("#harambe").toggle();
@@ -18,11 +25,6 @@ $(document).ready(function(){
   $("#rambo-img").click(function(event){
     $("#rambo").toggle();
   });
-=======
-$(function(){
-  var rhino = new Animal("rhino", false);
-  var gorilla = new Animal("gorilla", false);
-  var bat = new Animal("bat", false);
 
   $("button").click(function(){
     event.preventDefault();
@@ -50,8 +52,6 @@ $(function(){
     if (bat.adoptionStatus === true){
       $("#bat").hide();
     }
+
+    });
   });
-
-
->>>>>>> 0aef15367366c6c67737a90054ee6277c6e208eb
-});
