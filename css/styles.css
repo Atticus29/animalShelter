@@ -40,3 +40,10 @@ h1{
 p{
   margin-bottom: 50%; /*nothing should happen*/
 }
+#count, #rambo, #harambe {
+  display: none;
+}
+
+.jumbotron {
+  text-align: center;
+}
