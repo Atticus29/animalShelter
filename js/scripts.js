@@ -6,10 +6,25 @@ function Animal(animalName, adoptionStatus){
 }
 
 // Front End
+
+
+
+
+
 $(function(){
   var rhino = new Animal("rhino", false);
   var gorilla = new Animal("gorilla", false);
   var bat = new Animal("bat", false);
+
+  $("#harambe-img").click(function(event){
+    $("#harambe").toggle();
+  });
+  $("#count-img").click(function(event){
+    $("#count").toggle();
+  });
+  $("#rambo-img").click(function(event){
+    $("#rambo").toggle();
+  });
 
   $("button").click(function(){
     event.preventDefault();
@@ -37,7 +52,6 @@ $(function(){
     if (bat.adoptionStatus === true){
       $("#bat").hide();
     }
+
+    });
   });
-
-
-});
