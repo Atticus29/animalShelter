@@ -39,3 +39,11 @@ p{
 .jumbotron {
   text-align: center;
 }
+
+#rambo-adopted, #count-adopted, #harambe-adopted{
+  display: none;
+}
+
+#recent-adopted {
+  display: none;
+}
