@@ -6,3 +6,15 @@ function Animal(name, adoptionStatus){
 }
 
 // Front End
+$(document).ready(function(){
+
+  $("#harambe-img").click(function(event){
+    $("#harambe").toggle();
+  });
+  $("#count-img").click(function(event){
+    $("#count").toggle();
+  });
+  $("#rambo-img").click(function(event){
+    $("#rambo").toggle();
+  });
+});
