@@ -2,21 +2,9 @@ html {
   background-color: lightyellow;
 }
 
-
-
-/*h1{
-  text-align: center;
-  padding-right: 33%;
-}*/
-
 .animalFeature h3{
   text-align: center;
 }
-/*
-.animalFeature p{
-  margin-left: 2%;
-  margin-bottom: 10%;
-}*/
 
 #count, #rambo, #harambe {
   display: none;

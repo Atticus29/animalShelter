@@ -7,10 +7,6 @@ function Animal(animalName, adoptionStatus){
 
 // Front End
 
-
-
-
-
 $(function(){
   var rhino = new Animal("rhino", false);
   var gorilla = new Animal("gorilla", false);
@@ -58,6 +54,5 @@ $(function(){
     if (bat.adoptionStatus === true){
       $("#bat").hide();
     }
-
     });
   });
