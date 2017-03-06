@@ -1,14 +1,6 @@
 html {
   background-color: lightyellow;
 }
-.animalFeature{
-  float: left;
-  width: 20%;
-  border: 3px solid black;
-  margin-right: 2%;
-  padding: 3px 3px 3px 3px;
-  background-color: lightblue;
-}
 
 img{
   height: 300px;
@@ -21,7 +13,7 @@ img{
   text-align: center;
   padding: 3px 3px 3px 3px;
   border: 2px solid gray;
-}
+}s
 
 h1{
   text-align: center;
@@ -39,4 +31,11 @@ h1{
 
 p{
   margin-bottom: 50%; /*nothing should happen*/
+}
+#count, #rambo, #harambe {
+  display: none;
+}
+
+.jumbotron {
+  text-align: center;
 }
