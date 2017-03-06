@@ -2,48 +2,45 @@ html {
   background-color: lightyellow;
 }
 
-img{
-  height: 300px;
-  width: 300px;
-}
 
-.animalFeature img{
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 3px 3px 3px 3px;
-  border: 2px solid gray;
-}s
 
-h1{
+/*h1{
   text-align: center;
   padding-right: 33%;
-}
+}*/
 
 .animalFeature h3{
   text-align: center;
 }
-
+/*
 .animalFeature p{
   margin-left: 2%;
   margin-bottom: 10%;
-}
+}*/
 
-p{
-  margin-bottom: 50%; /*nothing should happen*/
-}
 #count, #rambo, #harambe {
   display: none;
+  height: 300px;
+  width: auto;
 }
 
 .jumbotron {
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  color: darkgreen;
+  background-image: url("https://media.giphy.com/media/uMp1QfDdIxTIA/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #rambo-adopted, #count-adopted, #harambe-adopted{
   display: none;
+  height: 300px;
+  width: auto;
 }
 
 #recent-adopted {
   display: none;
+  text-align: center;
 }

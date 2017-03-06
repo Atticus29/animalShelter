@@ -32,18 +32,18 @@ $(function(){
     if(buttonID === "rhinoBtn"){
       console.log(rhino.adoptionStatus);
       rhino.adoptionStatus = true;
-      $("#rambo-adopted").show();
+      $("#rambo-adopted").slideDown();
       $("#recent-adopted").show();
       // console.log(rhino);
       console.log(rhino.adoptionStatus);
     } else if (buttonID === "gorillaBtn"){
       gorilla.adoptionStatus = true;
-      $("#harambe-adopted").show();
-      $("#rambo-adopted").show();
+      $("#harambe-adopted").slideDown();
+      $("#recent-adopted").show();
     } else if (buttonID === "batBtn") {
       bat.adoptionStatus = true;
-      $("#count-adopted").show();
-      $("#rambo-adopted").show();
+      $("#count-adopted").slideDown();
+      $("#recent-adopted").show();
     } else {
       console.log("Button ID doesn't match any existing animal");
     }
